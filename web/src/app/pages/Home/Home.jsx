@@ -1,8 +1,11 @@
 import React from 'react'
+import Card from '../../components/core/Card/Card'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='p-4 bg-gradient-to-r from-slate-900 to-sky-800'>
+      <Card />
+    </div>
   )
 }
 
