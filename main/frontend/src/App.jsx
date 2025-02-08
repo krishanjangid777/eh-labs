@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { BackgroundBeamsWithCollisionDemo } from "./pages/Home"
+import Home from "./pages/Home"
 import Navbar from "./components/utils/Navbar"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path="/" element={<BackgroundBeamsWithCollisionDemo />}/>
+        <Route path="/" element={<Home />}/>
       </Routes>
     </BrowserRouter>
   )
