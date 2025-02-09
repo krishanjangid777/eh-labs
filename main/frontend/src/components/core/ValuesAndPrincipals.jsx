@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 
 const ValuesAndPrincipals = () => {
   return (
-    <div className="bg-slate-800 text-white flex flex-col items-center pb-4">
+    <div className="bg-slate-800 text-white flex flex-col items-center pb-12">
       <div className="text-center text-4xl text-blue-200">
         <h2>The core values and</h2>
         <h2>principales that drive us</h2>

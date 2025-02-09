@@ -13,19 +13,19 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/community">Events</Link>
+                    <Link to="/events">Events</Link>
                 </li>
                 <li>
-                    <Link to="/something">Customers</Link>
+                    <Link to="/customers">Customers</Link>
                 </li>
                 <li className="relative group">
-                    <button className="">Company</button>
-                    <div className="absolute hidden group-hover:block bg-slate-600 shadow-2xl text-white w-34 py-2 rounded z-50 -left-5">
+                    <Link to="/company" className="">Company</Link>
+                    {/* <div className="absolute hidden group-hover:block bg-slate-600 shadow-2xl text-white w-34 py-2 rounded z-50 -left-5">
                         <Link to="/team-of-eh" className="block px-4 py-2 cursor-pointer">Team of EH</Link>
                         <Link to="/about-us" className="block px-4 py-2 cursor-pointer">About Us</Link>
                         <Link to="/careers" className="block px-4 py-2 cursor-pointer">Our Story</Link>
                         <Link to="/contact" className="block px-4 py-2 cursor-pointer">Community</Link>
-                    </div>
+                    </div> */}
                 </li>
             </div>
             <div className='flex gap-5'>
