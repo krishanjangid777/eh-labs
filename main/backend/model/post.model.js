@@ -9,7 +9,7 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    link: {
+    imageLink: {
         type: String,
         required: true
     },
